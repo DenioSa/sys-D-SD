@@ -124,9 +124,13 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
    ![3.](https://github.com/DenioSa/sys-D-SD/blob/e3de66434990a7bf1d3afd622db798fb0e5b7c0a/img/Terraform%203.png)
 
+   
+
 1.2. Создание файла конфигурации и выдача прав (644)
 
    ![4.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%204.png)
+
+   
 
 1.3. Создание файлов main.tf и meta.yml в папке terraform, внесение данных - YandexCloud, ssh.
 
@@ -134,7 +138,12 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    
    ![6.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%206.png)
 
+   
+
 1.4. Инициализация.
 
    ![7.](https://github.com/DenioSa/sys-D-SD/blob/7a779ae9a93db6b5f2a6724e7677a51cab02ef6e/img/Terraform%207.png)
+
+
+1.5. По итогу подготовки конфигурационных файлов (.tf) проверяем terraform plan. По итогам запуск развертки terraform apply.
    
