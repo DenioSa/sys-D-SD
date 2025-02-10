@@ -116,25 +116,25 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ## Terraform
 
-1. Скачивание Terraform 1.10.5, распаковка, перемещение в директорию, выдача прав (766), проверка версии.
+1.1. Скачивание Terraform 1.10.5, распаковка, перемещение в директорию, выдача прав (766), проверка версии.
    
-    ![1.](https://github.com/DenioSa/sys-D-SD/blob/16cccd7a1f679e8a382500145849542200ba49a6/img/Terraform%201.png)
+     ![1.](https://github.com/DenioSa/sys-D-SD/blob/16cccd7a1f679e8a382500145849542200ba49a6/img/Terraform%201.png)
    
-    ![2.](https://github.com/DenioSa/sys-D-SD/blob/a130e19eeaa60107dd7475f798e61cc223fba2e6/img/Terraform%202.png)
+     ![2.](https://github.com/DenioSa/sys-D-SD/blob/a130e19eeaa60107dd7475f798e61cc223fba2e6/img/Terraform%202.png)
 
-    ![3.](https://github.com/DenioSa/sys-D-SD/blob/e3de66434990a7bf1d3afd622db798fb0e5b7c0a/img/Terraform%203.png)
+     ![3.](https://github.com/DenioSa/sys-D-SD/blob/e3de66434990a7bf1d3afd622db798fb0e5b7c0a/img/Terraform%203.png)
 
-2. Создание файла конфигурации и выдача прав (644)
+1.2. Создание файла конфигурации и выдача прав (644)
 
-   ![4.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%204.png)
+     ![4.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%204.png)
 
-3. Создание файлов main.tf и meta.yml в папке terraform, внесение данных - YandexCloud, ssh.
+1.3. Создание файлов main.tf и meta.yml в папке terraform, внесение данных - YandexCloud, ssh.
 
-   ![5.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%205.png)
+     ![5.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%205.png)
    
-   ![6.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%206.png)
+     ![6.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%206.png)
 
-4. Инициализация.
+1.4. Инициализация.
 
-   ![7.](https://github.com/DenioSa/sys-D-SD/blob/7a779ae9a93db6b5f2a6724e7677a51cab02ef6e/img/Terraform%207.png)
+     ![7.](https://github.com/DenioSa/sys-D-SD/blob/7a779ae9a93db6b5f2a6724e7677a51cab02ef6e/img/Terraform%207.png)
    
