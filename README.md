@@ -149,4 +149,9 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
    ![8.](https://github.com/DenioSa/sys-D-SD/blob/5076b5cd51dc09e45861446641658b82cfb8a3e9/img/Terraform%208.png)
 
+  
+   Итог 6 виртуальных машин.
+
+   ![9.](https://github.com/DenioSa/sys-D-SD/blob/efb5cbc9315889f0b084ca307ad12b5d8d948885/img/Terraform%209.png)
+
    
