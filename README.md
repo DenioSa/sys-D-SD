@@ -133,4 +133,8 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    ![5.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%205.png)
    
    ![6.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%206.png)
+
+4. Инициализация
+
+   ![7.](https://github.com/DenioSa/sys-D-SD/blob/7a779ae9a93db6b5f2a6724e7677a51cab02ef6e/img/Terraform%207.png)
    
