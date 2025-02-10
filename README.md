@@ -117,4 +117,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ## Terraform
 
 1. Скачивание Terraform 1.10.5, распаковка, перемещение в директорию, выдача прав (766).
+   
     ![1.](https://github.com/DenioSa/sys-D-SD/blob/16cccd7a1f679e8a382500145849542200ba49a6/img/Terraform%201.png)
+    ![2.](https://github.com/DenioSa/sys-D-SD/blob/a130e19eeaa60107dd7475f798e61cc223fba2e6/img/Terraform%202.png)
+   
