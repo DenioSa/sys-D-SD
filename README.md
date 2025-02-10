@@ -124,5 +124,13 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
     ![3.](https://github.com/DenioSa/sys-D-SD/blob/e3de66434990a7bf1d3afd622db798fb0e5b7c0a/img/Terraform%203.png)
 
+2. Создание файла конфигурации и выдача прав (644)
 
+   ![4.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%204.png)
+
+3. Создание файлов main.tf и meta.yml в папке terraform, внесение данных - YandexCloud, ssh.
+
+   ![5.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%205.png)
+   
+   ![6.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%206.png)
    
