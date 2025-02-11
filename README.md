@@ -152,7 +152,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 1.5. Подготовка конфигурационных файлов (.tf) проверяем terraform plan. По итогам запуск развертки terraform apply.
 
-   ![8.](https://github.com/DenioSa/sys-D-SD/blob/5076b5cd51dc09e45861446641658b82cfb8a3e9/img/Terraform%208.png)
+   ![8.](https://github.com/DenioSa/sys-D-SD/blob/7b9965228a97c204e7f4b567b5ea173f9815cf7a/img/Terraform%208.png)
 
 
   
