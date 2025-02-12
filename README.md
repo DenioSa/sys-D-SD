@@ -163,6 +163,32 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 
 
-   ## Ancible
+   ## Ansible
+   
+
+1.1. Далее процесс установки Ansible и проверка версии. 
+   
+   ![10.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%201.png)
+
+
+
+
+1.2. Настройка работы через Bastion. Создание ansible.cfg и hosts.ini(inventory.ini), однако здесь меня ожидала череда ошибок и длительное непонимание проблемы. Ping и вход SSH Bastion проходили, а вот ansible all -m ping не проходил. К сожалению проблема оказалась в элементарной невнимательности, а именно в разнице прописанного пути в конфигурации и имени hosts.ini(inventory.ini). 
+
+
+   ![11.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%202.png)
+
+   
+   ![12.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%203.png)
+
+
+
+1.3. Копирование ssh-key и проверка доступности хостов.
+
+   ![13.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%204.png)
+   
+
+   ![14.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%205.png)
+
 
    
