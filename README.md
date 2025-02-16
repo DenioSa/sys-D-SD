@@ -114,7 +114,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 #  Выполнение дипломной «Системный администратор»
 
-## Terraform
+## Инфраструктура (Terraform+Ansible)
 
 
 1.1. Скачивание Terraform 1.10.5, распаковка, перемещение в директорию, выдача прав (766), проверка версии.
@@ -152,28 +152,25 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 1.5. Подготовка конфигурационных файлов (.tf) проверяем terraform plan. По итогам запуск развертки terraform apply.
 
-   ![8.](https://github.com/DenioSa/sys-D-SD/blob/8204e0dbd297734d87b968046642c76f5f8cc2fa/img/Terraform%208.png)
+   ![8.](https://github.com/DenioSa/sys-D-SD/blob/840a31183535e7da8a3908083ffd86a601c5e03a/img/Terraform%208.png)
 
 
   
-   Итог 6 виртуальных машин.
+   Итог 6 виртуальных машин. Требования по конфигурациям, согласно заданию, соблюдены. 
 
    ![9.](https://github.com/DenioSa/sys-D-SD/blob/efb5cbc9315889f0b084ca307ad12b5d8d948885/img/Terraform%209.png)
-
-
-
-
-   ## Ansible
+   ![10.](https://github.com/DenioSa/sys-D-SD/blob/f08362175264469473d26e1fb8bf1b6137bb156b/img/Terraform%2010.png)
+   ![11.](https://github.com/DenioSa/sys-D-SD/blob/1cfa4a51dd3b2c96fe7c23689be8171154d2e337/img/Terraform%2011.png)
    
 
-1.1. Далее процесс установки Ansible и проверка версии. 
+1.6. Далее процесс установки Ansible и проверка версии. 
    
-   ![10.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%201.png)
+   ![11.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%201.png)
 
 
 
 
-1.2. Настройка работы через Bastion. Создание ansible.cfg и hosts.ini(inventory.ini), однако здесь меня ожидала череда ошибок и длительное непонимание проблемы. Ping и вход SSH Bastion проходили, а вот ansible all -m ping не проходил. К сожалению проблема оказалась в элементарной невнимательности, а именно в разнице прописанного пути в конфигурации, а точнее имени hosts.ini(создан был inventory.ini). После перименовнаия....
+1.7.  Создание ansible.cfg и hosts.ini(inventory.ini), настройка работы через Bastion.
 
 
    ![11.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%202.png)
@@ -183,10 +180,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 
 
-1.3. Копирование ssh-key и проверка доступности хостов.
-
-   ![13.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%204.png)
-   
+1.8. Копирование ssh-key и проверка доступности хостов.
 
    ![14.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%205.png)
 
