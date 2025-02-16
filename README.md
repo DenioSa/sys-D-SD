@@ -165,7 +165,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 1.6. Далее процесс установки Ansible и проверка версии. 
    
-   ![11.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%201.png)
+   ![12.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%201.png)
 
 
 
@@ -173,16 +173,30 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 1.7.  Создание ansible.cfg и hosts.ini(inventory.ini), настройка работы через Bastion.
 
 
-   ![11.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%202.png)
+   ![13.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%202.png)
 
    
-   ![12.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%203.png)
+   ![14.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%203.png)
 
 
 
 1.8. Копирование ssh-key и проверка доступности хостов.
 
-   ![14.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%205.png)
+   ![15.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%205.png)
 
+   
 
+## Сайт (Nginx)
+
+   ###Подготовка плейбука Nginx и установка. Проверка web-морды + Curl. 
+
+   ![15.](https://github.com/DenioSa/sys-D-SD/blob/7074e9e3bab45aa2fbba7150308420fa6f9de8e4/img/Ansible%207.png)
+   ![16.](https://github.com/DenioSa/sys-D-SD/blob/7074e9e3bab45aa2fbba7150308420fa6f9de8e4/img/Ansible%208.png)
+   ![17.](https://github.com/DenioSa/sys-D-SD/blob/7074e9e3bab45aa2fbba7150308420fa6f9de8e4/img/Ansible%209.png)
+   
+   ###В процессе установки терраформа в конфигурацию были внесены правки для доступа к интернету
+
+   ![17.](https://github.com/DenioSa/sys-D-SD/blob/1fd1df43848a4e6eb23c4ebac187dfb3bc377ed1/img/Sait%201.bmp)
+   ![18.](https://github.com/DenioSa/sys-D-SD/blob/1fd1df43848a4e6eb23c4ebac187dfb3bc377ed1/img/Sait%202.bmp)
+   
    
