@@ -210,3 +210,13 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    ![21.](https://github.com/DenioSa/sys-D-SD/blob/20e4ce8cf3ee8a5a3931994ff4453e4669122db8/img/nb3.bmp)
    ![22.](https://github.com/DenioSa/sys-D-SD/blob/20e4ce8cf3ee8a5a3931994ff4453e4669122db8/img/nb4.bmp)
    ![23.](https://github.com/DenioSa/sys-D-SD/blob/20e4ce8cf3ee8a5a3931994ff4453e4669122db8/img/nb5.bmp)
+
+
+## Мониторинг
+
+### По средствам плейбук на виртуальной машине WS-Z был развернут Zabbix, а так же на серверах WS1-WS2 поднят Zabbix Agent. Настройка WS1-WS2 на отправку метрик Zabbix server (WS-Z). Настроены дашборды с метриками.
+
+  ![24.](https://github.com/DenioSa/sys-D-SD/blob/355b26d4fd9eee73c73298d4052b29aa07193de8/img/Z1.png)
+  ![25.](https://github.com/DenioSa/sys-D-SD/blob/355b26d4fd9eee73c73298d4052b29aa07193de8/img/Z2.png)
+  ![26.](https://github.com/DenioSa/sys-D-SD/blob/355b26d4fd9eee73c73298d4052b29aa07193de8/img/Z3.png)
+  ![27.](https://github.com/DenioSa/sys-D-SD/blob/355b26d4fd9eee73c73298d4052b29aa07193de8/img/Z4.png)
