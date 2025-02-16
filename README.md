@@ -188,15 +188,25 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ## Сайт (Nginx)
 
-   ###Подготовка плейбука Nginx и установка. Проверка web-морды + Curl. 
+### Подготовка плейбука Nginx и установка. Проверка web-морды + Curl. 
 
    ![15.](https://github.com/DenioSa/sys-D-SD/blob/7074e9e3bab45aa2fbba7150308420fa6f9de8e4/img/Ansible%207.png)
    ![16.](https://github.com/DenioSa/sys-D-SD/blob/7074e9e3bab45aa2fbba7150308420fa6f9de8e4/img/Ansible%208.png)
    ![17.](https://github.com/DenioSa/sys-D-SD/blob/7074e9e3bab45aa2fbba7150308420fa6f9de8e4/img/Ansible%209.png)
    
-   ###В процессе установки терраформа в конфигурацию были внесены правки для доступа к интернету
+### В процессе установки терраформа в конфигурацию были внесены правки для доступа к интернету
 
    ![17.](https://github.com/DenioSa/sys-D-SD/blob/1fd1df43848a4e6eb23c4ebac187dfb3bc377ed1/img/Sait%201.bmp)
    ![18.](https://github.com/DenioSa/sys-D-SD/blob/1fd1df43848a4e6eb23c4ebac187dfb3bc377ed1/img/Sait%202.bmp)
-   
-   
+
+
+
+## Настройка балансировщика
+
+### Согласно заданию были созданы TargetGroup для 2 вирутальных машин (ws1-ws2), Backend Group, HTTP-роутер, Application load balancer с соотвествующими заданию настройками. Тест сайта curl -v 51.250.37.114:80 
+
+   ![19.](https://github.com/DenioSa/sys-D-SD/blob/20e4ce8cf3ee8a5a3931994ff4453e4669122db8/img/nb1.bmp)
+   ![20.](https://github.com/DenioSa/sys-D-SD/blob/20e4ce8cf3ee8a5a3931994ff4453e4669122db8/img/nb2.bmp)
+   ![21.](https://github.com/DenioSa/sys-D-SD/blob/20e4ce8cf3ee8a5a3931994ff4453e4669122db8/img/nb3.bmp)
+   ![22.](https://github.com/DenioSa/sys-D-SD/blob/20e4ce8cf3ee8a5a3931994ff4453e4669122db8/img/nb4.bmp)
+   ![23.](https://github.com/DenioSa/sys-D-SD/blob/20e4ce8cf3ee8a5a3931994ff4453e4669122db8/img/nb5.bmp)
