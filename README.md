@@ -220,3 +220,8 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
   ![25.](https://github.com/DenioSa/sys-D-SD/blob/355b26d4fd9eee73c73298d4052b29aa07193de8/img/Z2.png)
   ![26.](https://github.com/DenioSa/sys-D-SD/blob/355b26d4fd9eee73c73298d4052b29aa07193de8/img/Z3.png)
   ![27.](https://github.com/DenioSa/sys-D-SD/blob/355b26d4fd9eee73c73298d4052b29aa07193de8/img/Z4.png)
+  ![28.](https://github.com/DenioSa/sys-D-SD/blob/355b26d4fd9eee73c73298d4052b29aa07193de8/img/Z5.png)
+
+
+
+## Логи
