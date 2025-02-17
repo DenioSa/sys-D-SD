@@ -263,3 +263,12 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
    ![42.](https://github.com/DenioSa/sys-D-SD/blob/0e8af225eb15596a36252712b3754bf299f3b05f/img/SN1.png)
    ![43.](https://github.com/DenioSa/sys-D-SD/blob/0e8af225eb15596a36252712b3754bf299f3b05f/img/SN2.png)
+
+
+
+   # ВНИМАНИЕ!!! На момент оформления и передачи на проверку изменились внешние IP
+   ![44.](https://github.com/DenioSa/sys-D-SD/blob/cc2c26e178357508cd447b8f7f9e486c2839a11d/img/!!!.bmp)
+
+
+
+   
