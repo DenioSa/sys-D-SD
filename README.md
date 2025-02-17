@@ -155,13 +155,13 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 
 
-### 1.5. Подготовка конфигурационных файлов (.tf) проверяем terraform plan. По итогам запуск развертки terraform apply.
+### 1.5. Подготовка конфигурационных файлов, проверяем terraform plan. По итогам запуск развертки terraform apply.
 
    ![8.](https://github.com/DenioSa/sys-D-SD/blob/840a31183535e7da8a3908083ffd86a601c5e03a/img/Terraform%208.png)
 
 
   
-   Итог 6 виртуальных машин. Требования по конфигурациям, согласно заданию, соблюдены. 
+### Итог 6 виртуальных машин. Требования по конфигурациям, согласно заданию, соблюдены. 
 
    ![9.](https://github.com/DenioSa/sys-D-SD/blob/efb5cbc9315889f0b084ca307ad12b5d8d948885/img/Terraform%209.png)
    ![10.](https://github.com/DenioSa/sys-D-SD/blob/f08362175264469473d26e1fb8bf1b6137bb156b/img/Terraform%2010.png)
