@@ -112,12 +112,17 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 
 
+
+
 #  Выполнение дипломной «Системный администратор»
+
+
+
 
 ## Инфраструктура (Terraform+Ansible)
 
 
-1.1. Скачивание Terraform 1.10.5, распаковка, перемещение в директорию, выдача прав (766), проверка версии.
+### 1.1. Скачивание Terraform 1.10.5, распаковка, перемещение в директорию, выдача прав (766), проверка версии.
    
    ![1.](https://github.com/DenioSa/sys-D-SD/blob/16cccd7a1f679e8a382500145849542200ba49a6/img/Terraform%201.png)
    
@@ -128,14 +133,14 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    
 
 
-1.2. Создание файла конфигурации и выдача прав (644)
+### 1.2. Создание файла конфигурации и выдача прав (644)
 
    ![4.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%204.png)
 
 
    
 
-1.3. Создание файлов main.tf и meta.yml в папке terraform, внесение данных - YandexCloud, ssh.
+### 1.3. Создание файлов main.tf и meta.yml в папке terraform, внесение данных - YandexCloud, ssh.
 
    ![5.](https://github.com/DenioSa/sys-D-SD/blob/a3213630effcf6cd9b64396ded1f316dfd85c45e/img/Terraform%205.png)
    
@@ -144,13 +149,13 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
    
 
-1.4. Инициализация.
+### 1.4. Инициализация.
 
    ![7.](https://github.com/DenioSa/sys-D-SD/blob/7a779ae9a93db6b5f2a6724e7677a51cab02ef6e/img/Terraform%207.png)
 
 
 
-1.5. Подготовка конфигурационных файлов (.tf) проверяем terraform plan. По итогам запуск развертки terraform apply.
+### 1.5. Подготовка конфигурационных файлов (.tf) проверяем terraform plan. По итогам запуск развертки terraform apply.
 
    ![8.](https://github.com/DenioSa/sys-D-SD/blob/840a31183535e7da8a3908083ffd86a601c5e03a/img/Terraform%208.png)
 
@@ -163,14 +168,14 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    ![11.](https://github.com/DenioSa/sys-D-SD/blob/1cfa4a51dd3b2c96fe7c23689be8171154d2e337/img/Terraform%2011.png)
    
 
-1.6. Далее процесс установки Ansible и проверка версии. 
+### 1.6. Далее процесс установки Ansible и проверка версии. 
    
    ![12.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%201.png)
 
 
 
 
-1.7.  Создание ansible.cfg и hosts.ini(inventory.ini), настройка работы через Bastion.
+### 1.7.  Создание ansible.cfg и hosts.ini(inventory.ini), настройка работы через Bastion.
 
 
    ![13.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%202.png)
@@ -180,9 +185,10 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 
 
-1.8. Копирование ssh-key и проверка доступности хостов.
+### 1.8. Копирование ssh-key и проверка доступности хостов.
 
    ![15.](https://github.com/DenioSa/sys-D-SD/blob/9b628dacef0d72787bbbdbe9d3541604aa06fe29/img/Ansible%205.png)
+
 
    
 
@@ -224,6 +230,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 
 
+
 ## Логи
 
 ### На ранее созданных виртуальных машинах установлены: 
@@ -237,6 +244,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
   ![32.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L4.png)
   ![33.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L5.png)
 
+
  
 ## Сеть
    Согласно заданию создана облачная сеть Network1. Cервера WS-1, WS-2, WS-EL отнесены к приватным подсетям, а WS-Z, WS-K и WS-LB к публичным. Сервисы в группе безопасности настроены на соотвествующие входящие порты. Далее настройка Bastion для дальнейших подключений к WS с использованием Proxy Command,  а так же Nat-шлюз для доступа к интернету.
@@ -248,6 +256,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
   ![39.](https://github.com/DenioSa/sys-D-SD/blob/506f449b63e82f9f48a058e849beffc77e845cde/img/S6.bmp)
   ![40.](https://github.com/DenioSa/sys-D-SD/blob/506f449b63e82f9f48a058e849beffc77e845cde/img/S7.bmp) 
   ![41.](https://github.com/DenioSa/sys-D-SD/blob/506f449b63e82f9f48a058e849beffc77e845cde/img/S8.bmp) 
+
 
 
   ## Резерная копия
