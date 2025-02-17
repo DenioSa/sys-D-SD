@@ -1,0 +1,29 @@
+
+- name: Установка Elastic
+  hosts: ws-el_srv
+  become: yes
+  gather_facts: true
+
+  tasks:
+  - name: Установка elasticsearch
+    apt:
+      deb: "https://mirror.yandex.ru/mirrors/elastic/7/pool/main/e/elasticsearch/elasticsearch-7.15.1-amd64.deb"
+
+  - name: Копируем конфиг файл elasticsearch
+    copy:
+      src: /home/denio/netology/ansible/elastic_conf.yml
+      dest: /etc/elasticsearch/elasticsearch.yml
+
+  - name: daemon_reload
+    systemd:
+      daemon_reload: true
+
+  - name: Elasticsearch в автозагрузку
+    systemd:
+      name: elasticsearch.service
+      enabled: true
+
+  - name: Перезапуск службы
+    systemd:
+      name: elasticsearch.service
+      state: started

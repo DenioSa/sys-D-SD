@@ -1,0 +1,34 @@
+---
+- name: Установка-настройка Nginx
+  hosts: web
+  become: yes
+
+  tasks:
+
+    - name: Установка Nginx
+      apt:
+        name: nginx
+        state: latest
+        update_cache: yes
+    
+    - name: Запуск Nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+    
+    - name: Создание HTML-странички
+      copy:
+        content: "<html><head><title>Blagodary Misakova Evgenia</title></head><body><h1>Sovet pomog</h1></body></html>"
+        dest: /var/www/html/index.html
+        owner: www-data
+        group: www-data
+
+      notify:
+        - restart Nginx
+
+  handlers:
+    - name: restart Nginx
+      service:
+        name: nginx
+        state: restarted
