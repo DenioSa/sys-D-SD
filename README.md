@@ -241,8 +241,8 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ## Сеть
    Согласно заданию создана облачная сеть Network1. Cервера WS-1, WS-2, WS-EL отнесены к приватным подсетям, а WS-Z, WS-K и WS-LB к публичным. Сервисы в группе безопасности настроены на соотвествующие входящие порты. Далее настройка Bastion для дальнейших подключений к WS с использованием Proxy Command,  а так же Nat-шлюз для доступа к интернету.
   ![34.](https://github.com/DenioSa/sys-D-SD/blob/082006037b620528d41b93d9d1b11ac250f6a0fc/img/S1.png)
-  ![35.](https://github.com/DenioSa/sys-D-SD/blob/082006037b620528d41b93d9d1b11ac250f6a0fc/img/S2.png)
-  ![36.](https://github.com/DenioSa/sys-D-SD/blob/082006037b620528d41b93d9d1b11ac250f6a0fc/img/S3.png)
+  ![35.](https://github.com/DenioSa/sys-D-SD/blob/092a61ba00c80b26759834f69136b60cf89ed5ab/img/S2.bmp)
+  ![36.](https://github.com/DenioSa/sys-D-SD/blob/092a61ba00c80b26759834f69136b60cf89ed5ab/img/S3.bmp)
   ![37.](https://github.com/DenioSa/sys-D-SD/blob/082006037b620528d41b93d9d1b11ac250f6a0fc/img/S4.png)
   ![38.](https://github.com/DenioSa/sys-D-SD/blob/082006037b620528d41b93d9d1b11ac250f6a0fc/img/S5.png)
   ![39.](https://github.com/DenioSa/sys-D-SD/blob/506f449b63e82f9f48a058e849beffc77e845cde/img/S6.bmp)
