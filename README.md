@@ -225,3 +225,14 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 
 ## Логи
+
+### На ранее созданных виртуальных машинах установлены: 
+    * Elasticsearch - WS-EL.
+    * FileBeat - для передачи логов Nginx в реальном времени, установка на двух хостах WS1-WS2. Конфигурация передачи на WS-EL.
+    * Kibana - WS-K. Конфигурация получения от WS-EL.
+    
+  ![29.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L1.png)
+  ![30.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L2.png)
+  ![31.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L3.png)
+  ![32.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L4.png)
+  ![33.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L5.png)
