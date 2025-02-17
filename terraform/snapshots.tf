@@ -24,14 +24,4 @@ resource "yandex_compute_snapshot_schedule" "snapdipl" {
     "${yandex_compute_disk.disk-ws-k.id}", 
     ]
 
-
-  depends_on = [
-     yandex_compute_instance.ws-1,
-     yandex_compute_instance.ws-2,
-     yandex_compute_instance.ws-b,
-     yandex_compute_instance.ws-z,
-     yandex_compute_instance.ws-el,
-     yandex_compute_instance.ws-k
-  ]
-
 }
