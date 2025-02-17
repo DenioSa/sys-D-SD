@@ -229,10 +229,22 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ### На ранее созданных виртуальных машинах установлены: 
     * Elasticsearch - WS-EL.
     * FileBeat - для передачи логов Nginx в реальном времени, установка на двух хостах WS1-WS2. Конфигурация передачи на WS-EL.
-    * Kibana - WS-K. Конфигурация получения от WS-EL.
+    * Kibana - WS-K. Конфигурация получения от WS-EL. Проверка "морды"
     
   ![29.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L1.png)
   ![30.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L2.png)
   ![31.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L3.png)
   ![32.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L4.png)
   ![33.](https://github.com/DenioSa/sys-D-SD/blob/7bd634609ad0150b546194bd3f47d19b899f1131/img/L5.png)
+
+ 
+## Сеть
+   Согласно заданию создана облачная сеть Network1. Cервера WS-1, WS-2, WS-EL отнесены к приватным подсетям, а WS-Z, WS-K и WS-LB к публичным. Сервисы в группе безопасности настроены на соотвествующие входящие порты. Далее настройка Bastion для дальнейших подключений к WS с использованием Proxy Command,  а так же Nat-шлюз для доступа к интернету.
+  ![34.](https://github.com/DenioSa/sys-D-SD/blob/082006037b620528d41b93d9d1b11ac250f6a0fc/img/S1.png)
+  ![35.](https://github.com/DenioSa/sys-D-SD/blob/082006037b620528d41b93d9d1b11ac250f6a0fc/img/S2.png)
+  ![36.](https://github.com/DenioSa/sys-D-SD/blob/082006037b620528d41b93d9d1b11ac250f6a0fc/img/S3.png)
+  ![37.](https://github.com/DenioSa/sys-D-SD/blob/082006037b620528d41b93d9d1b11ac250f6a0fc/img/S4.png)
+  ![38.](https://github.com/DenioSa/sys-D-SD/blob/082006037b620528d41b93d9d1b11ac250f6a0fc/img/S5.png)
+  ![39.](https://github.com/DenioSa/sys-D-SD/blob/506f449b63e82f9f48a058e849beffc77e845cde/img/S6.bmp)
+  ![40.](https://github.com/DenioSa/sys-D-SD/blob/506f449b63e82f9f48a058e849beffc77e845cde/img/S7.bmp) 
+  ![41.](https://github.com/DenioSa/sys-D-SD/blob/506f449b63e82f9f48a058e849beffc77e845cde/img/S8.bmp) 
