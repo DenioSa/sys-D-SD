@@ -278,4 +278,8 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
    Согласно замечанию дипломного руководителя ранее действовавший токен отозван в личном кабинете. Далее согласно документации назначены роли и проведена инициализация авторизированного ключа для сервичсного аккаунта. Данные по токену и авторизированному ключу внесены в конфигурационный файл main.tf(перезагружен в диплом), далее проверил по 2-м вариациям в terraform plan. По итогам проверки токен будет удален.
 
-   
+   ![45.](https://github.com/DenioSa/sys-D-SD/blob/471c3dd49cea68e52ff42a51a076a974d8734603/img/D1.png)
+   ![46.](https://github.com/DenioSa/sys-D-SD/blob/471c3dd49cea68e52ff42a51a076a974d8734603/img/D2.png)
+   ![47.](https://github.com/DenioSa/sys-D-SD/blob/471c3dd49cea68e52ff42a51a076a974d8734603/img/D3.png)
+   ![48.](https://github.com/DenioSa/sys-D-SD/blob/471c3dd49cea68e52ff42a51a076a974d8734603/img/D4.png)
+   ![49.](https://github.com/DenioSa/sys-D-SD/blob/471c3dd49cea68e52ff42a51a076a974d8734603/img/D5.png)
