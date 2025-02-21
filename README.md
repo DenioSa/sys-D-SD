@@ -283,3 +283,5 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
    ![47.](https://github.com/DenioSa/sys-D-SD/blob/471c3dd49cea68e52ff42a51a076a974d8734603/img/D3.png)
    ![48.](https://github.com/DenioSa/sys-D-SD/blob/471c3dd49cea68e52ff42a51a076a974d8734603/img/D4.png)
    ![49.](https://github.com/DenioSa/sys-D-SD/blob/471c3dd49cea68e52ff42a51a076a974d8734603/img/D5.png)
+   ![50.](https://github.com/DenioSa/sys-D-SD/blob/367de3c344e7cb6035d4e37e6ef97f1c2bef34ea/img/D6.png)
+   
