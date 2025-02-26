@@ -5,4 +5,4 @@ users:
    shell: /bin/bash
    sudo: ['ALL=(ALL) NOPASSWD:ALL']
    ssh-authorized-keys:
-     - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQChPrsseX5GD7sZ6zEKo/Fu/1gA/FXadzwRHwuC/4S61DDuyhUA7iVY1o3bxVkmlWSNCAJVcNtNPwcxpVMUmcdgoUz2MeVUf3qbvbaherO9RK1XiSkBx4F2ej9qkzZGLu20P2kaLXQYMJpkHWLASDZ5qbLhWHH4BB+GYDPHLfLlM2HGOraCl2D+2ddTh1dkViMsAwddcSSfvRdzpyVYCNK5/PJdeGNTvBCj1DGhtPuB9lR2H1xRtS1ByBbkqI9bp0yTHEG+C0hxzPzrHY6whH/p01FnWs6Iz4mwMcJtI0PRHUSD8eUN0If949qgf3YVPrpoWuks0BchRKb7ILL4QdwuVhlVe0pEPPxKvMPvPFCHTy3AlZiUcn0qSAujB51C9+9K1ZF9U2AlzWSm9qx9770lCZ944Va1CRW0mOWjgB+3L1rn43MBqnd/LwcTX+6vME9bp3HccYn+soGJVCwyl38FyDlEi9eg2hiNuuDRl605o1lUCjgs3WHk1w8S32f0acM= denio@ubuntu
+     - ssh-rsa 
