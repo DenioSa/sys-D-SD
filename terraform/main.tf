@@ -9,8 +9,8 @@ terraform {
 
 
 provider "yandex" {
-  #token     = "y0__xC71v0fGMHdEyCcpNaqEvTUJYyg1i_fQUrNEEc2VTiIHmet"
-  cloud_id  = "b1gcvg80q0ptf53up7tv"
-  folder_id = "b1g1resobkrlnebb3l3p"
+  #token     = ""
+  cloud_id  = ""
+  folder_id = ""
   service_account_key_file = file("~/key.json")
 }
